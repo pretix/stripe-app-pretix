@@ -117,10 +117,6 @@
       "purpose": "Automatically configure Stripe for your ticket shop"
     },
     {
-      "permission": "user_email_read",
-      "purpose": "Add debug information"
-    },
-    {
       "permission": "mandate_read",
       "purpose": "Handle payment transactions"
     },
