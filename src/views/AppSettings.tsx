@@ -30,34 +30,8 @@ const AppSettings = () => {
                     Welcome!
                 </Box>
                 <Box>
-                    You can use this space to welcome your users and direct them to your setup
-                    documentation. Make sure to add the correct links below.
-                </Box>
-                <Box
-                    css={{
-                        stack: "x",
-                        gap: "small",
-                        marginTop: "medium",
-                    }}
-                >
-                    <Button type="primary" target="blank" href="https://stripe.com">
-                        View setup instructions
-                        <Icon name="external" />
-                    </Button>
-                    <Button target="blank" href="">
-                        Learn more
-                        <Icon name="external" />
-                    </Button>
-                </Box>
-            </Box>
-            <Box css={{ marginTop: "large" }}>
-                <Box css={{ font: "heading", marginBottom: "small" }}>
-                    Additional settings
-                </Box>
-                <Divider />
-                <Box css={{ font: "body", marginTop: "medium" }}>
-                    If there are no additional settings for your app, you can delete this
-                    section.
+					There are no settings for pretix here. You can configure the integration in your
+					pretix event at Setings → Payment → Stripe.
                 </Box>
             </Box>
         </SettingsView>
