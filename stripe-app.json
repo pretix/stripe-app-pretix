@@ -1,21 +1,150 @@
 {
-    "id": "eu.pretix.plugins.stripe",
-    "version": "0.0.1",
-    "name": "pretix",
-    "icon": "",
-    "permissions": [],
-    "stripe_api_access_type": "restricted_api_key",
-    "ui_extension": {
-        "views": [
-            {
-                "viewport": "settings",
-                "component": "AppSettings"
-            }
-        ],
-        "content_security_policy": {
-            "connect-src": null,
-            "image-src": null,
-            "purpose": ""
-        }
+  "id": "eu.pretix.plugins.stripe",
+  "version": "0.0.1",
+  "name": "pretix",
+  "icon": "",
+  "permissions": [
+    {
+      "permission": "apple_pay_domain_read",
+      "purpose": "Automatically configure Stripe for your ticket shop"
+    },
+    {
+      "permission": "apple_pay_domain_write",
+      "purpose": "Automatically configure Stripe for your ticket shop"
+    },
+    {
+      "permission": "balance_read",
+      "purpose": "Create payout reports"
+    },
+    {
+      "permission": "balance_transaction_source_read",
+      "purpose": "Create payout reports"
+    },
+    {
+      "permission": "charge_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "charge_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "terminal_connection_token_write",
+      "purpose": "Integrate POS transactions"
+    },
+    {
+      "permission": "customer_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "customer_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "dispute_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "dispute_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "elements_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "event_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "terminal_location_read",
+      "purpose": "Integrate POS transactions"
+    },
+    {
+      "permission": "terminal_location_write",
+      "purpose": "Integrate POS transactions"
+    },
+    {
+      "permission": "payment_intent_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "payment_intent_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "payment_method_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "payment_method_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "payout_read",
+      "purpose": "Create payout reports"
+    },
+    {
+      "permission": "setup_intent_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "setup_intent_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "source_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "source_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "token_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "token_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "top_up_read",
+      "purpose": "Create payout reports"
+    },
+    {
+      "permission": "webhook_read",
+      "purpose": "Automatically configure Stripe for your ticket shop"
+    },
+    {
+      "permission": "user_email_read",
+      "purpose": "Add debug information"
+    },
+    {
+      "permission": "mandate_read",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "mandate_write",
+      "purpose": "Handle payment transactions"
+    },
+    {
+      "permission": "terminal_reader_read",
+      "purpose": "Integrate POS ;5Btransactions"
     }
+  ],
+  "ui_extension": {
+    "views": [
+      {
+        "viewport": "settings",
+        "component": "AppSettings"
+      }
+    ],
+    "content_security_policy": {
+      "connect-src": null,
+      "image-src": null,
+      "purpose": ""
+    }
+  },
+  "stripe_api_access_type": "restricted_api_key"
 }
