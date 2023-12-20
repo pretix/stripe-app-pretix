@@ -1,0 +1,21 @@
+{
+    "id": "eu.pretix.plugins.stripe",
+    "version": "0.0.1",
+    "name": "pretix",
+    "icon": "",
+    "permissions": [],
+    "stripe_api_access_type": "restricted_api_key",
+    "ui_extension": {
+        "views": [
+            {
+                "viewport": "settings",
+                "component": "AppSettings"
+            }
+        ],
+        "content_security_policy": {
+            "connect-src": null,
+            "image-src": null,
+            "purpose": ""
+        }
+    }
+}
