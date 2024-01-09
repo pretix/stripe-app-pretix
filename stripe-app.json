@@ -1,5 +1,5 @@
 {
-  "id": "eu.pretix.plugins.stripe",
+  "id": "eu.pretix.plugins.stripe.rak",
   "version": "0.0.1",
   "name": "pretix",
   "icon": "",
