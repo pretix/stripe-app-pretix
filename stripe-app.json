@@ -5,6 +5,10 @@
   "icon": "",
   "permissions": [
     {
+      "permission": "connected_account_read",
+      "purpose": "Show Stripe account details for debugging"
+    },
+    {
       "permission": "apple_pay_domain_read",
       "purpose": "Automatically configure Stripe for your ticket shop"
     },
@@ -126,7 +130,7 @@
     },
     {
       "permission": "terminal_reader_read",
-      "purpose": "Integrate POS ;5Btransactions"
+      "purpose": "Integrate POS transactions"
     }
   ],
   "ui_extension": {
