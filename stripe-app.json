@@ -146,5 +146,6 @@
       "purpose": ""
     }
   },
-  "stripe_api_access_type": "restricted_api_key"
+  "stripe_api_access_type": "restricted_api_key",
+  "distribution_type": "public"
 }
