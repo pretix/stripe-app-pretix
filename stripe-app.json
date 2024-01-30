@@ -2,7 +2,7 @@
   "id": "eu.pretix.plugins.stripe.rak",
   "version": "0.0.2",
   "name": "pretix",
-  "icon": "",
+  "icon": "./icon.png",
   "permissions": [
     {
       "permission": "connected_account_read",
