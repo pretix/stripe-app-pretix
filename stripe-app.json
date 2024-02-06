@@ -1,6 +1,6 @@
 {
   "id": "eu.pretix.plugins.stripe.rak",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "name": "pretix",
   "icon": "./icon.png",
   "permissions": [
